@@ -87,7 +87,7 @@ export default function Form() {
 
         const parentUser = users.find(u => u.input === data.parentName);
 
-        if (data.parent !== "Director") {``
+        if (data.parent !== "Director") {
 
             if (!parentUser || !parentUser.parent) {
                 toast.info(
